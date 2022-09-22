@@ -77,7 +77,7 @@ void solve(){
 
     // sort edges: blue roads at first O(MlogM)
     sort(edges.begin(), edges.end(), myComp);
-
+//
     // MST with only red + blue 
     vector<pair<pll, long>> red_blue_roads;
     for (auto edge : edges){    //O(N*logN)
